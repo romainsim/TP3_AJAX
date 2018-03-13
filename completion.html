@@ -1,0 +1,35 @@
+    <!DOCTYPE html>
+    <html>
+    	<head>
+    		<meta charset="utf8">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
+    		<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+    		<link rel="stylesheet" href="css/style.css">
+    		<script src="js/cp.js"></script>
+    	</head>
+    	<body container="small">
+    		<h2 class="_bb1">TP AJAX</h2>
+    		<form>
+    			<div>
+    				<label  for="codep">Code postal <a id="chercher"><i class="fa fa-search"></i>
+    					</a>
+    				</label>
+    				<input type="text"  id="codep" />
+    			</div>
+    			<div>
+    				<label  for="ville">Ville</label>
+    				<select id="villes"></select>
+    				<i id="working"></i>
+    				<span class="tag-box" id="indication"></span>
+    			</div>
+    			<div>
+    				<label  for="departement">Département</label>
+    				<input type="text" id="departement"/>
+    			</div>
+    		</form>
+    		<div style="display:none" class="alert-box -error _mts" id="nt"><h4>Erreur</h4>la ville n'a pas été trouvée.</div>
+    	</body>
+    </html>
+

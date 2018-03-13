@@ -1,0 +1,32 @@
+    <!DOCTYPE html>
+    <html lang="fr">
+    	<head>
+    		<meta charset="utf8">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise.min.css">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-utils/concise-utils.min.css">
+    		<link rel="stylesheet" href="https://cdn.concisecss.com/concise-ui/concise-ui.min.css">
+    		<script src="./js/client.js"></script>
+    		<title>Echo avec AJAX</title>
+    	</head>
+    	<body container="small">
+    		<div id="spinner" style="visibility:hidden" class="spinner"></div>
+    	</div>
+    	<div grid>
+    		<div column>
+    			<h3 class="_bb1">Client</h3>
+    			<form id="form">
+
+    				<label>Le message à envoyer</label>
+    				<input name="message" type="text" placeholder="Message" id="message">
+    				<button type="submit">Envoyer</button>
+    			</form>		  
+    		</div>
+    		<div column style="overflow:auto;height:500px" >
+    			<h3 class="_bb1" >Messages</h3>
+    			<ul id="listeMessages">
+    			</ul>	
+    		</div>
+    	</div>
+    </body>
+    </html>
+
